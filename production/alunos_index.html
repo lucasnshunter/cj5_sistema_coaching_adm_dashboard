@@ -55,6 +55,7 @@
             <br />
 
          <!-- sidebar menu -->
+        <!-- sidebar menu -->
             <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
               <div class="menu_section">
                 <h3>Aluno</h3>
@@ -65,7 +66,6 @@
                       <li><a href="#">Item</a></li>
                     </ul>
                   </li>
-                     </li>
                     <li><a><i class="fa fa-gavel"></i> Carreiras <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="carreiras_new.html">Criar Carreiras</a></li>
@@ -94,6 +94,7 @@
                    
                     </ul>
                   </li>
+                  
                     
                  
                   <li><a><i class="fa fa-paper-plane"></i>Solicitações <span class="fa fa-chevron-down"></span></a>
@@ -190,35 +191,116 @@
             
             
            
-         <div class="row">
+          </div>
+          <!-- /top tiles -->
+                
+                     <div>
+                
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                          <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Cuncurso X</a></li>
+                          <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Concurso w</a></li>
+                          <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Concurso y</a></li>
+                          <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">concurso z</a></li>
+                        </ul>
+                      
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                          <div role="tabpanel" class="tab-pane active" id="home">    
+                           <div class="row">
+            
+
+         
+          <br />
+
+          <div class="row">
+            <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>Home </h2>
+                    <h2>Alunos do concurso X (vou verificar os meios de filtragem possiveis dentro desta lista) </h2>
                     
                     <div class="clearfix"></div>
                   </div>
-                  <div class="x_content">
-                    <div class="col-md-3 col-sm-3 col-xs-12 profile_left">
-                      
-                      </div>
-                      
-                      <h1>
-                        Ainda Sem planos para o que deve vir na home
-                      </h1>
-                      
                   
-
-                    </div>
-                    <div class="col-md-9 col-sm-9 col-xs-12">
+                  
+                  
+                    <!-- start project list -->
+                    <table class="table table-striped projects">
+                      <thead>
+                        <tr>
+                          <th style="width: 1%">#</th>
+                          <th style="width: 20%">Nome do aluno</th>
+                          <th>Ciclo atual</th>
+                          <th>Progresso</th>
+                          <th>Acessar</th>
+                        
+                        </tr>
+                      </thead>
+                      <tbody>
+                     
+                         <tr>
+                          <td>#</td>
+                          <td>
+                            <a>Fulano de teste testado</a>
+                            <br />
+                            <small>Data de inicio: dd/mm/aaaa</small>
+                            <br>
+                             <small>Previsão de termino: dd/mm/aaaa</small>
+                          </td>
+                          <td>
+                            <ul class="list-inline">
+                              <li>
+                                <div ><h1>5</h1></div>
+                              </li>
+                              <li>
+                             Ciclo basico
+                              </li>
+                              
+                            </ul>
+                          </td>
+                          <td class="project_progress">
+                            <div class="progress progress_sm">
+                              <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="77"></div>
+                            </div>
+                            <small>77% Complete(numero de ciclos concluidos/numero total de ciclos planejados)</small>
+                          </td>
+                          <td>
+                           <a class="btn btn-success submit  btn-large" href="alunos_perfil.html"><i class="fa fa-eye" aria-hidden="true"> Visualizar</a>
+                          </td>
                           
-                   
+                        </tr>
+                      </tbody>
+                    </table>
                     </div>
+                     </div>
                       </div>
-                      </div>
-                      </div>
-                      <!-- start of user-activity-graph -->
+                       </div>
+                        </div>
+                    <!-- end project list -->
+                          </div>
+                          <div role="tabpanel" class="tab-pane" id="profile">teste2</div>
+                          <div role="tabpanel" class="tab-pane" id="messages">teste3</div>
+                          <div role="tabpanel" class="tab-pane" id="settings">teste4</div>
+                        </div>
+                
+                </div>
+
+               </div>
                       
+             </div>
+           </div>
+                      <!-- start of user-activity-graph -->
+
+
+           
+
+
+        </div>
+        </div>
+         </div>
+        </div>
+        <!-- /page content -->
 
         <!-- footer content -->
         <footer>
@@ -271,9 +353,6 @@
 
     <!-- Custom Theme Scripts -->
     <script src="../build/js/custom.min.js"></script>
-    <!-- Editor de texto-->
-    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
-  <script>tinymce.init({ selector:'textarea' });</script>
 	
   </body>
 </html>

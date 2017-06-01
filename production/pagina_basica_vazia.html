@@ -54,10 +54,10 @@
 
             <br />
 
-            <!-- sidebar menu -->
+           <!-- sidebar menu -->
             <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
               <div class="menu_section">
-                <h3>General</h3>
+                <h3>Aluno</h3>
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
@@ -67,7 +67,7 @@
                   </li>
                   <li><a><i class="fa fa-edit"></i> Ciclos <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="form.html">Ciclo vigente</a></li>
+                      <li><a href="ciclo_padrao.html">Ciclo vigente</a></li>
                       <li><a href="carreiras.html">Historico de metas</a></li>
                    
                     </ul>
@@ -87,8 +87,12 @@
                  
                   <li><a><i class="fa fa-paper-plane"></i>Solicitações <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="fixed_sidebar.html">Criar solicitação</a></li>
-                      <li><a href="fixed_footer.html">Listar solicitações</a></li>
+                     <li><a href="solicitacao_cancelar_ciclo.html">Cancelar ciclo</a></li>
+                     <li><a href="solicitacao_adiar_ciclo.html">Adiar ciclo</a></li>
+                     <li><a href="solicitacao_auterar_ciclo.html">auterar ciclo</a></li>
+                      <li><a href="solicitacao_generica.html">Cancelar ciclo</a></li>
+                      
+                      <li><a href="solicitacao_listar.html">Listar solicitações</a></li>
                       
                     </ul>
                   </li>
@@ -98,7 +102,7 @@
 
             </div>
             <!-- /sidebar menu -->
-
+            
             <!-- /menu footer buttons -->
             <div class="sidebar-footer hidden-small">
               <a data-toggle="tooltip" data-placement="top" title="Settings">
@@ -133,83 +137,20 @@
                     <span class=" fa fa-angle-down"></span>
                   </a>
                   <ul class="dropdown-menu dropdown-usermenu pull-right">
-                    <li><a href="javascript:;"> Perfil</a></li>
+                    <li><a href="perfil.html"> Perfil</a></li>
                     <li>
-                    <li><a href="javascript:;"> editar dados</a></li>
+                    <li><a href="editar_dados.html"> editar dados</a></li>
                     <li>
-                    <li><a href="javascript:;"> Minhas compras</a></li>
+                    <li><a href="compras.html"> Minhas compras</a></li>
                     <li>
-                    <li><a href="javascript:;"> Minhas atividades</a></li>
+                    <li><a href="atividades.html"> Minhas atividades</a></li>
                     
                    
                     <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
                   </ul>
                 </li>
 
-                <li role="presentation" class="dropdown">
-                  <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
-                    <i class="fa fa-envelope-o"></i>
-                    <span class="badge bg-green">6</span>
-                  </a>
-                  <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
-                    <li>
-                      <a>
-                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
-                        <span>
-                          <span>John Smith</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                        <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a>
-                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
-                        <span>
-                          <span>John Smith</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                        <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a>
-                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
-                        <span>
-                          <span>John Smith</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                        <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a>
-                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
-                        <span>
-                          <span>John Smith</span>
-                          <span class="time">3 mins ago</span>
-                        </span>
-                        <span class="message">
-                          Film festivals used to be do-or-die moments for movie makers. They were where...
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <div class="text-center">
-                        <a>
-                          <strong>See All Alerts</strong>
-                          <i class="fa fa-angle-right"></i>
-                        </a>
-                      </div>
-                    </li>
-                  </ul>
-                </li>
+                
               </ul>
             </nav>
           </div>
@@ -250,132 +191,7 @@
           <div class="row">
             
 
-          <div class="panel panel-primary">
-             <div class="panel-heading">
-                <h3 class="panel-title"><center>Programa de estudos</center></h3>
-              </div>
-              <div class="panel-body">
-                <table class="table table-bordered">
-                  <thead>
-                    <tr>
-                      <td class="success" >Tempo</td>
-                      <td >Dia 1</td>
-                      <td >Dia 2</td>
-                      <td >Dia 3</td>
-                      <td >Dia 4</td>
-                      <td >Dia 5</td>
-                      <td >Dia 6</td>
-                      <td >Dia 7</td>
-                      <td >Dia 8</td>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                       <td class="success" >1 hr 45 mim</td>
-                      <td >Atividade A</td>
-                      <td >Atividade A</td>
-                      <td >Atividade A</td>
-                      <td >Atividade A</td>
-                      <td >Atividade A</td>
-                      <td >Atividade A</td>
-                      <td >Atividade A</td>
-                      <td >Atividade A</td>
-                    </tr>
-                      <tr>
-                       <td class="success" >1 hr 45 mim</td>
-                      <td >Atividade B</td>
-                      <td >Atividade B</td>
-                      <td >Atividade B</td>
-                      <td >Atividade B</td>
-                      <td >Atividade B</td>
-                      <td >Atividade B</td>
-                      <td >Atividade B</td>
-                      <td >Atividade B</td>
-                    </tr>
-                      <tr>
-                       <td class="success" >1 hr 45 mim</td>
-                      <td >Atividade C</td>
-                      <td >Atividade C</td>
-                      <td >Atividade C</td>
-                      <td >Atividade C</td>
-                      <td >Atividade C</td>
-                      <td >Atividade C</td>
-                      <td >Atividade C</td>
-                      <td >Atividade C</td>
-                    </tr>
-                      <tr>
-                       <td class="success" >1 hr 45 mim</td>
-                      <td >Atividade D</td>
-                      <td >Atividade D</td>
-                      <td >Atividade D</td>
-                      <td >Atividade D</td>
-                      <td >Atividade D</td>
-                      <td >Atividade D</td>
-                      <td >Atividade D</td>
-                      <td >Atividade D</td>
-                    </tr>
-                  </tbody>
-  
-                </table>
-             <div class="panel-footer">
-               <center>
-                  
-                  <span class="label label-primary">Ciclo com janela</span>
-                  <span class="label label-success">Ciclo com folga</span>
-                
-               </center>
-               <table class="table table-striped">
-                   <thead>
-                    <tr>
-                      <th class="warning">Dias de revisão passado</th>
-                      <th class="danger">Materia de lei/Doutrina</th>
-                      <th class="warning">Materia de lei/Doutrina</th>
-                      <th class="danger">Sumulas</th>
-                      <th class="warning">informativo</th>
-                      <th class="danger">Revisão no ciclo vigente</th>
-                      
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td class="warning">0</td>
-                      <td class="danger">processo penal</td>
-                      <td class="warning">Vazio</td>
-                      <td class="danger">Adiministrativo</td>
-                      <td class="warning">penal</td>
-                      <td class="danger">Ciclos 1 a 3</td>
-                     
-                    </tr>
-                   
-                  </tbody>
-               </table>
-              
-               <button type="button" class="btn btn-success">Finalizar ciclo</button>
-            
-               
-             </div>
-            </div>
           
-          </div>
-
-            <div class="list-group">
-              <a  class="list-group-item active">
-               <center><h1>Orientações do ciclo</h1> </center>
-              </a>
-              <a  class="list-group-item">A – CPP: Art.1º ao Art.184 (dado gerado automaticamente a partir do banco de dados)</a>
-              <a  class="list-group-item">B – CPP: Art.185 ao Art.350 (dado gerado automaticamente a partir do banco de dados)</a>
-              <a  class="list-group-item">C – CPP: Art.351 ao Art.497 (dado gerado automaticamente a partir do banco de dados)</a>
-              <a  class="list-group-item">D – CPP: Art.513 ao Art.667 (dado gerado automaticamente a partir do banco de dados)</a>
-             
-              <a  class="list-group-item list-group-item-danger">Aviso do asteristico (criado por padrão na geração do ciclo, sempre com texto padrão)</a>
-               <a  class="list-group-item list-group-item-info"> Aviso opcional criado opcionalmente pelo ADM para aquele aluno </a>
-              <a  class="list-group-item list-group-item-warning">Aviso opcional criado opcionalmente pelo ADM para aquele aluno </a>
-              <a  class="list-group-item list-group-item-success">Aviso opcional criado opcionalmente pelo ADM para aquele aluno </a>
-             
-            </div>
-            
-          </div>
-          <br />
 
           <div class="row">
 
@@ -400,7 +216,7 @@
         <!-- footer content -->
         <footer>
           <div class="pull-right">
-            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+            Portal CJ5 Coaching jurídico - Plataforma desenvolvida por <a href="https://colorlib.com">Voa Studio</a>
           </div>
           <div class="clearfix"></div>
         </footer>

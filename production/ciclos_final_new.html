@@ -27,6 +27,8 @@
 
     <!-- Custom Theme Style -->
     <link href="../build/css/custom.min.css" rel="stylesheet">
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+
   </head>
 
   <body class="nav-md">
@@ -65,7 +67,6 @@
                       <li><a href="#">Item</a></li>
                     </ul>
                   </li>
-                     </li>
                     <li><a><i class="fa fa-gavel"></i> Carreiras <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="carreiras_new.html">Criar Carreiras</a></li>
@@ -94,6 +95,7 @@
                    
                     </ul>
                   </li>
+                  
                     
                  
                   <li><a><i class="fa fa-paper-plane"></i>Solicitações <span class="fa fa-chevron-down"></span></a>
@@ -198,22 +200,129 @@
                     
                     <div class="clearfix"></div>
                   </div>
-                  <div class="x_content">
-                    <div class="col-md-3 col-sm-3 col-xs-12 profile_left">
-                      
-                      </div>
-                      
-                      <h1>
-                        Ainda Sem planos para o que deve vir na home
-                      </h1>
-                      
-                  
+                  <div class="row">
+                 <!--Digite aqui seu codigo parça-->
+                 
+                
+                
+                <div class="panel panel-primary">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Criar ciclo</h3>
+                  </div>
+                  <div class="panel-body">
+                    (abaixo colocarei todos os dados que usarei para calcular o ciclo, os que são associados a um (*), são dados puxados do banco de dado)
+                    
+                    <form>
+                    
+                    
+                     <div class="panel-heading">
+                          <h3 class="panel-title"><center>  Informações do aluno</center></h3>
+                        </div>
+                        <div class="panel-body">
+                             <table class="table table-striped">
+                            <tr>
+                              <th>Carreira do aluno(*)</th>
+                              <th>Concurso do aluno(*)</th>
+                           
+                            </tr>
+                             <tr>
+                               <td>Nome da carreira</td> 
+                              <td>Nome do concurso</td>
+                               
+                            </tr>
+                          </table>
+                        
+                           <table class="table table-striped">
+                            <tr>
+                              <th>Velocidade com o programa(*)</th>
+                              <th>Velocidade sem o programa(*)</th>
+                               <th>Horas diarias de estudo(*)</th>
+                            </tr>
+                             <tr>
+                               <td>x</td> 
+                              <td>y</td>
+                                <td>z</td>
+                            </tr>
+                          </table>
+                          <table class="table table-striped">
+                            <tr>
+                              <th>Uso de folga</th>
+                              <th>Uso de dia de descanso</th>
+                               <th>Dia de inicio do ciclo</th>
+                            </tr>
+                             <tr>
+                               <td><input type="checkbox" checked data-toggle="toggle"></td> 
+                              <td><input type="checkbox" checked data-toggle="toggle"></td>
+                                <td>
+                                    
+                                    <fieldset>
+                                      <div class="control-group">
+                                        <div class="controls">
+                                          <div class="col-md-11 xdisplay_inputx form-group has-feedback">
+                                            <input type="text" class="form-control has-feedback-left" id="single_cal1" placeholder="First Name" aria-describedby="inputSuccess2Status">
+                                            <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
+                                            <span id="inputSuccess2Status" class="sr-only">(success)</span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </fieldset>
+                                </td>
+                            </tr>
+                          </table>
+                  </div>
+                </div>
+                    
+ 
+                  <center>
+                  <a href="ciclos_finais_index.html" class="btn btn-primary">Criar ciclos</a>
+                  </center>
+                </form>
+                    <!--Finalize aqui seu codigo parça-->
+                    
+                    
+                    
+                    
 
-                    </div>
-                    <div class="col-md-9 col-sm-9 col-xs-12">
-                          
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+
+            
+                     
+                 
                    
-                    </div>
                       </div>
                       </div>
                       </div>
@@ -274,6 +383,8 @@
     <!-- Editor de texto-->
     <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
   <script>tinymce.init({ selector:'textarea' });</script>
+   
+   <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
 	
   </body>
 </html>
